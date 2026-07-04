@@ -42,6 +42,7 @@ public class Main {
                 int y = arr[left];
                 freq.put(y, freq.get(y) - 1);
 
+                // to finally escape the loop!
                 if (freq.get(y) == 0)
                     countDistinct--;
                 
