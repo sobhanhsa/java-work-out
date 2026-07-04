@@ -23,7 +23,7 @@ class ImprovedGameCharacter {
     private int energy;
     private boolean alive;
 
-    public GameCharacter(int energy) {
+    public ImprovedGameCharacter(int energy) {
         setEnergy(energy);
     }
 
